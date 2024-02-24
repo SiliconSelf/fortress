@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "fortress-client",
+    "fortress-server"
+]
