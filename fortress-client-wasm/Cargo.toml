@@ -1,6 +1,6 @@
 [package]
-name = "fortress-server"
-description = "The backend web server for fortress"
+name = "fortress-client-wasm"
+description = "The WASM project that handles the fortress-client UI"
 version = "0.1.0"
 edition = "2021"
 
@@ -55,4 +55,4 @@ wildcard_dependencies = "warn"
 workspace = true
 
 [dependencies]
-actix-web = "4.5.1"
+leptos = { version = "0.6.6", features = ["csr"] }

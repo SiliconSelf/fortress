@@ -1,6 +1,8 @@
 [workspace]
 
 members = [
+    "fortress-server",
     "fortress-client",
-    "fortress-server"
+    "fortress-client-wasm",
+    "fortress-client-ipc"
 ]

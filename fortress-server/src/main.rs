@@ -10,12 +10,11 @@ async fn hello() -> impl Responder {
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
-    simple_logger::init().expect("Failed to initialize logging.");
     HttpServer::new(|| {
         App::new()
             .service(hello)
     })
-    .bind(("127.0.0.1", 8080))?
+    .bind(("127.0.0.1", 8000))?
     .run()
     .await
 }
