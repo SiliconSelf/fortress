@@ -2,6 +2,7 @@
 
 members = [
     "fortress-server",
+    "fortress-server-responses",
     "fortress-client",
     "fortress-client-wasm",
     "fortress-client-ipc"
