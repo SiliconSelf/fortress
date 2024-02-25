@@ -3,5 +3,5 @@
 use leptos::*;
 
 fn main() {
-    mount_to_body(|| view! { <p>"Hello, world!"</p> })
+    mount_to_body(|| view! { <p class="text-red-500">"Hello, world!"</p> })
 }
